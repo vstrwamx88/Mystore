@@ -53,8 +53,8 @@ log = logging.getLogger("store-bot")
 
 # ══════════════════════════ 1. CONFIG (.env) ══════════════════════════
 
-BOT_TOKEN: str = os.environ["BOT_TOKEN"]
-ADMIN_IDS: set[int] = {int(x) for x in os.getenv("ADMIN_IDS", "").split(",")
+BOT_TOKEN: str = os.environ["8629098498:AAHnnf00Kzk8ZLmDZXtRfC1TVXjttesIgDI"]
+ADMIN_IDS: set[int] = {int(x) for x in os.getenv("6045528121", "").split(",")
                        if x.strip().isdigit()}
 DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./store.db")
 REDIS_URL: str = os.getenv("REDIS_URL", "redis://localhost:6379/0")
